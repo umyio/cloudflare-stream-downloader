@@ -1,4 +1,4 @@
-module github.com/Schachte/cloudflare-stream-downloader
+module github.com/umyio/cloudflare-stream-downloader
 
 go 1.19
 
