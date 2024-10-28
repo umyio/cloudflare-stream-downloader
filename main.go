@@ -482,7 +482,7 @@ func (v *Video) concatenateTSFiles(filePaths []string, chosenResolution string, 
 			log.Fatal(err)
 		}
 
-		cmd := exec.Command("cat")
+		cmd := exec.Command("/bin/cat")
 		cmd.Stdin = inputFile
 		cmd.Stdout = outputFile
 
